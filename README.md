@@ -18,7 +18,9 @@
 ### base [android library]  
 - Application layer. It provides all dependency injection graph and makes a bridge between another layers.    
 ### network [kotlin library]
-- Network APIs and its business rules.    
+- Network APIs and its business rules consuming public APIs.
+- <a href="https://github.com/DukeNgn/Dog-facts-API" target="_blank">Dog Facts API</a>
+- <a href="https://github.com/ElliottLandsborough/dog-ceo-api" target="_blank">Dog Picture API</a>
 ### features [android module]
 - Dynamic features that consume base and app layer.    
  
