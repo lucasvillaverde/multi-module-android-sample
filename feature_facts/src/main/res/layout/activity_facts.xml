@@ -19,12 +19,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
         android:id="@+id/tvFacts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:text="HELLO WORLD!"
-        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@id/btnGetRandomFact"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
